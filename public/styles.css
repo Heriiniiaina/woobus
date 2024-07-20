@@ -1,0 +1,23 @@
+body{
+    height: 90vh;
+    background: url("img/back.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+.container{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    width: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bus form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin-bottom: 15px;
+}
